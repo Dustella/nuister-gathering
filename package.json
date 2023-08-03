@@ -1,0 +1,52 @@
+{
+  "name": "dustella_s_candystore",
+  "version": "0.0.10",
+  "description": "A blog here",
+  "keywords": [],
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "author": "Dustella",
+  "scripts": {
+    "dev": "vitepress dev --host",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "peerDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@algolia/client-search": "^4.19.1",
+    "@giscus/vue": "^2.3.0",
+    "@vercel/analytics": "^0.1.11",
+    "@vueuse/head": "^1.1.26",
+    "animate.css": "^4.1.1",
+    "fs-extra": "^11.1.1",
+    "gray-matter": "^4.0.3",
+    "nprogress": "^0.2.0",
+    "postcss": "8.4.21",
+    "postcss-html": "^1.5.0",
+    "sass": "^1.64.1",
+    "sitemap": "^7.1.1",
+    "unocss": "^0.50.8",
+    "vite": "^4.4.7",
+    "vue-tsc": "^1.8.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.37.0",
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.17.1",
+    "eslint": "8.36.0",
+    "stylelint": "^15.10.2",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard": "^31.0.0",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-scss": "^4.7.0",
+    "typescript": "^5.1.6",
+    "vitepress": "1.0.0-beta.7",
+    "vue": "^3.3.4"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
+  },
+  "packageManager": "pnpm@8.6.10"
+}
