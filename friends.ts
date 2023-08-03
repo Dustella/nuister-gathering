@@ -5,24 +5,34 @@ export const webIcon = { svg: '<svg t="1680068608298" class="icon" viewBox="0 0 
 export const bloggerIcon = { svg: '<svg t="1680068781742" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1193" width="32" height="32"><path d="M937.642667 1024H86.442667C38.4 1024 0 985.6 0 937.642667V86.442667C0 38.4 38.4 0 86.4 0H940.8C985.6 0 1024 38.4 1024 86.4v851.2C1024 985.6 985.6 1024 937.642667 1024zM512 169.6H384A214.4 214.4 0 0 0 169.6 384v256A214.4 214.4 0 0 0 384 854.357333h256A214.4 214.4 0 0 0 854.357333 640v-169.6c0-25.6-19.2-44.8-44.8-44.8H768a42.453333 42.453333 0 0 1-41.642667-41.642667A214.4 214.4 0 0 0 512 169.514667z m131.157333 512H384c-22.4 0-41.6-19.2-41.6-41.6s19.2-41.642667 41.6-41.642667h259.157333c22.442667 0 41.685333 19.2 41.685334 41.642667s-19.2 41.642667-41.6 41.642667z m-108.8-339.2c22.485333 0 41.642667 19.2 41.642667 41.6s-19.2 41.6-41.6 41.6h-153.6c-22.4 0-41.642667-19.2-41.642667-41.6s19.2-41.6 41.6-41.6h153.6z" p-id="1194"></path></svg>' }
 
 const friends: DefaultTheme.TeamMember[] = [
-
   {
-    name: 'Cody Gua',
-    links: [{
-      icon: bloggerIcon,
-      link: 'https://blog.codynet.work/',
-    }],
-    avatar: 'https://2.bp.blogspot.com/-ARI_SQs2Vm8/X94gsfqwInI/AAAAAAAAAMw/XOWB3XID_OEpqw647HLt3lbvlkTcvs0VQCK4BGAYYCw/s113/photo_2020-06-03_18-10-44.jpg',
-    desc: 'Cody硬件大佬',
+    name: 'Dustella',
+    links: [
+      {
+        icon: 'github',
+        link: 'https://github.com/Dustella',
+      }, {
+        icon: webIcon,
+        link: 'https://dustella.net',
+      }],
+    avatar: 'https://img-cdn.dustella.net/avtr.jpg',
+    desc: 'Dustella 是一只可爱的猫',
   },
   {
-    name: '守望时空33',
-    links: [{
-      icon: juejinIcon,
-      link: 'https://juejin.cn/user/915274236957640',
-    }],
-    avatar: 'https://p3-passport.byteacctimg.com/img/user-avatar/0b4d644ad3f122200428aa4a333df048~300x300.image',
-    desc: 'Java大神 全栈大佬 什么都会',
+    name: '北雁云依',
+    links: [
+      {
+        icon: 'github',
+        link: 'https://github.com/beiyanyunyi',
+      }, {
+        icon: webIcon,
+        link: 'https://me.penclub.club/',
+      }, {
+        icon: 'twitter',
+        link: 'https://twitter.com/Beiyan_Yunyi',
+      }],
+    avatar: 'https://img-cdn.dustella.net/byyy-avtr.png',
+    desc: '特菈家里的某位',
   },
   {
     name: '瑾知',
@@ -36,27 +46,6 @@ const friends: DefaultTheme.TeamMember[] = [
       }],
     avatar: 'https://npm.elemecdn.com/jinzhi-assets@1.0.0/img/t01050efbe9ea36dd6a.jpg',
     desc: '瑾知真可爱',
-  },
-  {
-    name: 'Julian',
-    links: [{
-      icon: bloggerIcon,
-      link: 'https://jurt4201.blogspot.com/',
-    }, {
-      icon: webIcon,
-      link: 'https://jurt4201.work/#/md-src/index.md?lang=en;'
-    }],
-    avatar: 'https://1.bp.blogspot.com/-ndfZdj0X-Ss/YQoyZQiHtQI/AAAAAAAAALs/JQvRfGtjEq8T0ztPK_A8fRmiAM3ZGOwPQCK4BGAYYCw/s113/unnamed.jpg',
-    desc: 'Julian正在膜大佬 / FOSS lover',
-  },
-  {
-    name: 'Shadow',
-    links: [{
-      icon: webIcon,
-      link: 'https://www.nya.al/',
-    }],
-    avatar: 'https://avatars.githubusercontent.com/u/66502155?v=4',
-    desc: 'Shadow 反射注入工程师',
   },
   {
     name: 'Chaoswinder',
@@ -95,15 +84,6 @@ const friends: DefaultTheme.TeamMember[] = [
     desc: 'xiaonya 这是一只鲨鱼',
   },
   {
-    name: '永夜の博客',
-    links: [{
-      icon: webIcon,
-      link: 'https://www.nightsoil.cn',
-    }],
-    avatar: 'https://lsky.nightsoil.cn/2022/06/30/626d41f44e239.png',
-    desc: '在代码海洋遨游溺水身亡',
-  },
-  {
     name: 'DrSHW',
     links: [{
       icon: webIcon,
@@ -111,21 +91,6 @@ const friends: DefaultTheme.TeamMember[] = [
     }],
     avatar: 'https://images.drshw.tech/images/notes/%E6%A0%87%E5%87%86%E5%A4%B4%E5%83%8F.jpg',
     desc: '特立独行的炼金术士',
-  },
-  {
-    name: 'Vincent文朔',
-    links: [
-      {
-        icon: webIcon,
-        link: 'https://blog.vincent1230.top/',
-      },
-      {
-        icon: 'twitter',
-        link: 'https://twitter.com/Vincent20011230',
-      },
-    ],
-    avatar: 'https://a.vincent1230.top/blogrol/avatar.jpg',
-    desc: '太阳出来了 雾就会散的',
   },
 ]
 
