@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: 朋友们
+title: 极客之窗
 ---
 
 <FriendList />

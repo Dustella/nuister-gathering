@@ -26,10 +26,15 @@ const doShuffle = () => {
   <VPTeamPage>
     <VPTeamPageTitle>
       <template #title>
-        朋友们
+        极客们的无调歌单
       </template>
       <template #lead>
-        欢迎扩列
+        <p class="text-[1rem]">
+          一群极客们的无调歌单，每个人都有自己的风格，每个人都有自己的故事。
+        </p>
+        <p class="text-[1rem]">
+          有人善用辞言表，有人以生活为照。也初尝华丽辞藻，富有情调却也无调。
+        </p>
       </template>
     </VPTeamPageTitle>
     <div class="flex items-center justify-center">
