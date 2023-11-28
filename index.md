@@ -23,15 +23,15 @@ features:
   - icon: 🎈
     title: Nuistshare 资料共享
     details: 提供学习资料
-    link: https://nuistshare.cn
+    link: https://www.nuistshare.cn
 
   - icon: 🛠️
-    title: 信技的超级仓库
+    title: 超级仓库
     details: 主要是文件镜像
     link: https://index.0w0.al
 
   - icon: 🍬
     title: NUISTCraft
     details: 一个MC服务器
-    link: https://nuistcraft.com
+    link: https://www.nuistcraft.com
 ---

@@ -6,19 +6,11 @@ interface MyWorks {
 }
 
 const works: MyWorks = {
-  'OI OJ': [{
-
-    title: 'Think Spirit',
-    details: '算法竞赛',
-    link: 'https://nuistcpc.club/',
-  },
-  ],
-  '学生组织': [
+  'OI OJ': [
     {
-      title: '大学生科学技术协会',
-      details: '竞赛、技术、学术、创新、科普。',
-      link: 'https://nuist-sast.github.io/',
-      // icon: { src: 'https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg', height: '15px' },
+      title: 'Think Spirit',
+      details: '算法竞赛',
+      link: 'https://nuistcpc.club/',
     },
   ],
   '社团': [
@@ -28,7 +20,6 @@ const works: MyWorks = {
       link: 'https://www.duohuo.org.cn',
     },
     {
-
       title: 'NUIST - CEEE',
       details: '电子设计、电子竞赛、电子创新',
     },
@@ -36,9 +27,7 @@ const works: MyWorks = {
       title: 'IT 协会',
       details: '网络安全',
     },
-
   ],
-
 }
 
 export default works

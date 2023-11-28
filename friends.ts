@@ -16,7 +16,7 @@ const friends: DefaultTheme.TeamMember[] = [
         link: 'https://dustella.net',
       }],
     avatar: 'https://img-cdn.dustella.net/avtr.jpg',
-    desc: 'Dustella 是一只可爱的猫',
+    desc: 'Dustella ',
   },
   {
     name: '北雁云依',
@@ -32,7 +32,7 @@ const friends: DefaultTheme.TeamMember[] = [
         link: 'https://twitter.com/Beiyan_Yunyi',
       }],
     avatar: 'https://img-cdn.dustella.net/byyy-avtr.png',
-    desc: '特菈家里的某位',
+    desc: '',
   },
   {
     name: '瑾知',
