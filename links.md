@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: 极客之窗
+title: 无调歌单
 ---
 
 <FriendList />
