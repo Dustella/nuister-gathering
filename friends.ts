@@ -92,6 +92,19 @@ const friends: DefaultTheme.TeamMember[] = [
     avatar: 'https://images.drshw.tech/images/notes/%E6%A0%87%E5%87%86%E5%A4%B4%E5%83%8F.jpg',
     desc: '特立独行的炼金术士',
   },
+  {
+    name: 'TurboHsu',
+    links: [{
+      icon: webIcon,
+      link: 'https://owow.cc',
+    }, {
+      icon: 'github',
+      link: 'https://github.com/TurboHsu',
+    },
+    ],
+    avatar: 'https://owow.cc/assets/avatar.jpg',
+    desc: 'TurboHsu 应该不是猫',
+  },
 ]
 
 export default friends
